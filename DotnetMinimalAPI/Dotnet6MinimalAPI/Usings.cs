@@ -1,0 +1,27 @@
+﻿global using NLog;
+global using NLog.Web;
+global using System.Text;
+global using Asp.Versioning;
+global using System.Xml.Linq;
+global using Newtonsoft.Json;
+global using Asp.Versioning.Builder;
+global using Microsoft.OpenApi.Models;
+global using Asp.Versioning.ApiExplorer;
+global using Asp.Versioning.Conventions;
+global using System.Runtime.Serialization;
+global using Microsoft.Extensions.Options;
+global using System.Text.Json.Serialization;
+global using Swashbuckle.AspNetCore.SwaggerGen;
+global using Swashbuckle.AspNetCore.Annotations;
+global using Microsoft.AspNetCore.Mvc.ApiExplorer;
+global using Microsoft.AspNetCore.Mvc.ModelBinding;
+
+global using Dotnet6MinimalAPI.Models;
+global using Dotnet6MinimalAPI.Config;
+global using Dotnet6MinimalAPI.OpenApi;
+global using Dotnet6MinimalAPI.Extensions;
+global using Dotnet6MinimalAPI.Application;
+global using Dotnet6MinimalAPI.Endpoints.v1;
+global using Dotnet6MinimalAPI.Application.Helpers;
+global using Dotnet6MinimalAPI.Application.Exceptions;
+global using Wrapper = Dotnet6MinimalAPI.Application.Wrapper;

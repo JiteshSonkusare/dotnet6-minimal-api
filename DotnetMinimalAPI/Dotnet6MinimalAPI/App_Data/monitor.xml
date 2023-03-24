@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kontofon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kjøretidspunkt>2023-03-10 13:11</kjøretidspunkt>
+  <loggfilnavn>E:\logg\kvh\kf230310.log</loggfilnavn>
+  <server>erfwsvm00211</server>
+  <sistetidspunkt>2023-03-10 13:11:23</sistetidspunkt>
+  <Banker>
+    <Bank id="7001" navn="DNB">
+      <Tjenester>
+        <Tjeneste navn="Pålogging" status="OK">
+          <Funksjoner>
+            <Funksjon id="203" type="Pålogging med mobilnummer">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:21</tidspunkt>
+              <feiltekst>K-Nmr=23163233,A-Nmr=+4795090904 </feiltekst>
+            </Funksjon>
+            <Funksjon id="200" type="Pålogging med konto eller kundenummer">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:21</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+            <Funksjon id="100" type="Disponibelt beløp ved pålogging">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:21</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+        <Tjeneste navn="Siste transer" status="OK">
+          <Funksjoner>
+            <Funksjon id="301" type="Siste transaksjoner (TTT)">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:23</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+        <Tjeneste navn="Annen konto" status="OK">
+          <Funksjoner>
+            <Funksjon id="102" type="Spørring på annen konto">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:10:49</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+        <Tjeneste navn="Tjenestemeny" status="OK">
+          <Funksjoner>
+            <Funksjon id="138" type="Tjenestemeny">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:23</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+        <Tjeneste navn="Kontoregulering" status="OK">
+          <Funksjoner>
+            <Funksjon id="170R" type="Kontoregulering">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:11</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+        <Tjeneste navn="Telegiro" status="OK">
+          <Funksjoner>
+            <Funksjon id="188" type="Spørring mot sikkerhetsrampa">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:10:57</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+            <Funksjon id="199R" type="Telegiro - registrer betaling">
+              <system>Alle systemer</system>
+              <status>OK</status>
+              <statuskode>0000</statuskode>
+              <tidspunkt>2023-03-10 13:11:01</tidspunkt>
+              <feiltekst />
+            </Funksjon>
+          </Funksjoner>
+        </Tjeneste>
+      </Tjenester>
+    </Bank>
+  </Banker>
+</Kontofon>
