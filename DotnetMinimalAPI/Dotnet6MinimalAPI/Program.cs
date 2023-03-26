@@ -1,6 +1,3 @@
-using Dotnet6MinimalAPI.Endpoints.v1;
-using Dotnet6MinimalAPI.Extensions;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddDIDependencies();
@@ -13,8 +10,6 @@ builder.AddCorsInfo();
 var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseCors();
-var versionSet = app.GetApiVersionSet();
-app.MapServiceEndpoints(versionSet);
+app.MapEndpoints();
 app.UseSwaggerInfo();
-
 app.Run();

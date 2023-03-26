@@ -22,6 +22,7 @@ global using Dotnet6MinimalAPI.OpenApi;
 global using Dotnet6MinimalAPI.Extensions;
 global using Dotnet6MinimalAPI.Application;
 global using Dotnet6MinimalAPI.Endpoints.v1;
+global using Dotnet6MinimalAPI.Endpoints.v2;
 global using Dotnet6MinimalAPI.Application.Helpers;
 global using Dotnet6MinimalAPI.Application.Exceptions;
 global using Wrapper = Dotnet6MinimalAPI.Application.Wrapper;

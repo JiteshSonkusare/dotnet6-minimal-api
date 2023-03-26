@@ -2,7 +2,7 @@
 {
     public static class ServiceApi
     {
-        public static void MapServiceEndpoints(this WebApplication app, ApiVersionSet versionSet)
+        public static void MapServiceV1Endpoints(this WebApplication app, ApiVersionSet versionSet)
         {
             app.MapGet("v{version:apiVersion}/Services", GetServices)
                 .AddMetaData<List<Models.Tjenester>>(

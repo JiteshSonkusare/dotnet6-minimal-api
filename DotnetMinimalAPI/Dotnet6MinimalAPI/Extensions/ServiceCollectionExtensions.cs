@@ -62,6 +62,13 @@
                         .Build();
         }
 
+        public static void MapEndpoints(this WebApplication app)
+        {
+            var versionSet = app.GetApiVersionSet();
+            app.MapServiceV1Endpoints(versionSet);
+            app.MapServiceV2Endpoints(versionSet);
+        }
+
         public static void UseSwaggerInfo(this WebApplication app)
         {
             app.UseSwagger();
