@@ -2,8 +2,8 @@
 This API is developed using dotnet 6 minimal framework.
 
 # Functionalities Supports
-1.	Creats Endpoints without using controller
-2.	OpenAPI and Swagger
-3.	API Versioning
-4.	Logging using NLog
-5.  Global namespace usings
+1.	minimal endpoints without using controller
+2.	openapi and swagger
+3.	api versioning
+4.	logging using nlog
+5.  global namespace usings
